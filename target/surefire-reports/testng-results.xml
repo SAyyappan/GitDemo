@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">Login page is displayed (PASSED : 29s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User logged in into sharetask (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on Dashboard menu (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify Dashboard page is displayed (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on Account link (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Account Page should be displayed (FAILED : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on Profile link (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Profile page should be displayed (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on Skills link (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Skills page should be displayed (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on Verification link (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verification page should be displayed (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on Payment link (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Payment page should be displayed (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on logout button on the dashboardpage (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">perform VAT calculations (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Close the current browser session (SKIPPED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43452" started-at="2020-01-08T10:55:54Z" finished-at="2020-01-08T10:56:38Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@7ed7259e]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Validating Dashboard" duration-ms="43452" started-at="2020-01-08T10:55:54Z" finished-at="2020-01-08T10:56:38Z">
+      <class name="Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.TestRunner@7ed7259e]" name="setUpClass" is-config="true" duration-ms="563" started-at="2020-01-08T11:55:54Z" finished-at="2020-01-08T11:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@7ed7259e]" name="runScenario" duration-ms="42037" started-at="2020-01-08T11:55:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-01-08T11:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify sharetask.eu is working end to end"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify Sharetask.eu is working E2E"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="control__indicator"></div> is not clickable at point (684, 915). Other element would receive the click: <th class="dow">...</th>
+  (Session info: chrome=79.0.3945.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-PKB0IPQK', ip: '192.168.0.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Ayyappan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bb732b11766f085d9cc987f6f9496365]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="control__indicator"></div> is not clickable at point (684, 915). Other element would receive the click: <th class="dow">...</th>
+  (Session info: chrome=79.0.3945.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-PKB0IPQK', ip: '192.168.0.128', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Ayyappan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bb732b11766f085d9cc987f6f9496365
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at Pages.AccountPage.PostTasks(AccountPage.java:180)
+	at StepDefinitions.Dashboard_StepDef.account_Page_should_be_displayed(Dashboard_StepDef.java:104)
+	at ✽.Account Page should be displayed(C:/Users/Ayyappan/shareTaskEU/src/test/java/FeatureFiles/Dashboard.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">Login page is displayed (PASSED : 29s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User logged in into sharetask (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on Dashboard menu (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verify Dashboard page is displayed (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on Account link (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Account Page should be displayed (FAILED : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on Profile link (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Profile page should be displayed (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on Skills link (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Skills page should be displayed (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on Verification link (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Verification page should be displayed (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on Payment link (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Payment page should be displayed (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on logout button on the dashboardpage (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">perform VAT calculations (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Close the current browser session (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@7ed7259e]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2020-01-08T11:56:38Z" finished-at="2020-01-08T11:56:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Validating Dashboard -->
+  </suite> <!-- Suite -->
+</testng-results>

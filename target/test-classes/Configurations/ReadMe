@@ -1,0 +1,5 @@
+Flow of execution
+
+Register --> Credentials created, use same to login into application.
+Login --> After login, dashboard page displayed, and if new user then needs to complete the profile.
+Account --> Account page to be filled in
