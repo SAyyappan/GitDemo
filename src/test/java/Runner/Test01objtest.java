@@ -30,6 +30,8 @@ public class Test01objtest extends TestBase {
 		Assert.assertEquals("HOME SERVICE EXPERTS",HomepageTitle);
 		
 		
+		System.out.println("Success in addign to GIT");
+		
 		
        
     }
