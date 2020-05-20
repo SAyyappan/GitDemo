@@ -32,6 +32,7 @@ public class Test01objtest extends TestBase {
 		
 		System.out.println("Success in addign to GIT");
 		
+		System.out.println("Success in modifying to GIT");
 		
        
     }
